@@ -14,7 +14,7 @@ const Home = () => {
       exit={{ clipPath: 'circle(0% at 50% 50%)' }}
       transition={{ duration: 0.7, ease: 'easeInOut' }}
     >
-      <div className="h-[calc(100vh-136px)] w-full mx-auto p-8 flex flex-col md:flex-row gap-4 justify-around items-center">
+      <div className="h-[calc(100vh-136px)] w-full mx-auto flex flex-col md:flex-row gap-4 justify-around items-center">
         <div className='flex gap-2'>
           <div className='flex flex-col gap-2 flex-wrap justify-center md:justify-start'>
             <Card title="Games" icon={Games_Icon} />

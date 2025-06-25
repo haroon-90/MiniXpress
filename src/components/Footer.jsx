@@ -24,10 +24,10 @@ const Footer = () => {
           <div>
             <h5 className="font-semibold mb-1">Legal</h5>
             <ul className="space-y-1 text-sm">
-              <li><Link to="/terms" className="hover:underline">Terms & Conditions</Link></li>
-              <li><Link to="/policy" className="hover:underline">Privacy Policy</Link></li>
-              <li><Link to="/cookies" className="hover:underline">Cookies Policy</Link></li>
-              <li><Link to="/license" className="hover:underline">License Info</Link></li>
+              <li><Link to="/MiniXpress/terms" className="hover:underline">Terms & Conditions</Link></li>
+              <li><Link to="/MiniXpress/policy" className="hover:underline">Privacy Policy</Link></li>
+              <li><Link to="/MiniXpress/cookies" className="hover:underline">Cookies Policy</Link></li>
+              <li><Link to="/MiniXpress/license" className="hover:underline">License Info</Link></li>
             </ul>
           </div>
         </div>

@@ -1,14 +1,15 @@
-import React from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { motion } from "framer-motion"
 import Rolldice from '../mini/RollDice.jsx'
+import Quickquiz from '../mini/QuickQuiz.jsx'
 
 import Card from '../parts/card'
 import Dice_icon from '../assets/svg/dice_logo.svg'
+import Quickquiz_icon from '../assets/svg/QuickQuiz.svg'
 
 const Randomizers = () => {
     const location = useLocation()
-    const isInGame = ['rolldice'].some((slug) =>
+    const isInGame = ['rolldice', 'quickquiz'].some((slug) =>
         location.pathname.includes(slug)
     )
 
@@ -23,6 +24,7 @@ const Randomizers = () => {
                 {!isInGame && (
                     <div className='flex justify-center items-center flex-wrap gap-2'>
                         <Card title="RollDice" icon={Dice_icon} />
+                        <Card title="QuickQuiz" icon={Quickquiz_icon} />
                         {/* <Card title="Randomizers 2" />
                         <Card title="Randomizers 3" />
                         <Card title="Randomizers 4" />
@@ -33,6 +35,7 @@ const Randomizers = () => {
 
                 <Routes>
                     <Route path="rolldice" element={<Rolldice />} />
+                    <Route path="quickquiz" element={<Quickquiz />} />
                     {/* Future nested routes can go here */}
                 </Routes>
             </div>

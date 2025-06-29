@@ -40,12 +40,7 @@ const RollDice = () => {
     exit={{ clipPath: 'circle(0% at 50% 50%)' }}
     transition={{ duration: 0.7, ease: 'easeInOut' }}
   >
-    <div
-      className="w-[50vw] h-auto flex flex-col items-center p-6 bg-blue-800/20 backdrop-blur-[2px] my-4 rounded-lg"
-      style={{
-        color: isDark ? "#ffffff" : "#000000",
-      }}
-    >
+    <div className="w-[50vw] h-auto flex flex-col items-center p-6 bg-blue-800/20 backdrop-blur-[2px] my-4 rounded-lg">
       <h2 className="text-2xl font-bold mb-6">Roll Dice</h2>
 
       <motion.img
@@ -67,7 +62,7 @@ const RollDice = () => {
       <button
         onClick={rollDice}
         disabled={rolling}
-        className="mt-6 bg-[#FFA500] hover:bg-[#ffd484] text-black font-bold py-2 px-6 rounded shadow-md transition-all duration-300"
+        className="mt-6 bg-[#FFA500] hover:bg-[#ffa600dd] text-black font-bold py-2 px-6 rounded shadow-md transition-all duration-300"
       >
         {rolling ? "Rolling..." : "Roll Dice"}
       </button>

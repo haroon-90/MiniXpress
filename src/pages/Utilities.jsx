@@ -5,16 +5,18 @@ import Calculator from '../mini/Calculator.jsx'
 import FlipCoin from '../mini/FlipCoin.jsx'
 import Stopwatch from '../mini/StopWatch.jsx'
 import Taskify from '../mini/Taskify.jsx'
+import Unitconverter from '../mini/Unitconverter.jsx'
 
 import Card from '../parts/card'
 import Calculator_icon from '../assets/svg/calculator_logo.svg'
 import Flipcoin_icon from '../assets/svg/coin_logo.svg'
 import Stopwatch_icon from '../assets/svg/Stopwatch_logo.svg'
 import Taskify_icon from '../assets/svg/Taskify_icon.svg'
+import UnitConverter_icon from '../assets/svg/Unitconverter_icon.svg'
 
 const Utilities = () => {
     const location = useLocation()
-    const isInGame = ['calculator', 'flipcoin', 'stopwatch', 'taskify'].some((slug) =>
+    const isInGame = ['calculator', 'flipcoin', 'stopwatch', 'taskify', 'unitconverter'].some((slug) =>
         location.pathname.includes(slug)
     )
 
@@ -32,6 +34,7 @@ const Utilities = () => {
                         <Card title="FlipCoin" icon={Flipcoin_icon} />
                         <Card title="Stopwatch" icon={Stopwatch_icon} />
                         <Card title="Taskify" icon={Taskify_icon} />
+                        <Card title="UnitConverter" icon={UnitConverter_icon} />
                     </div>
                 )}
 
@@ -40,6 +43,7 @@ const Utilities = () => {
                     <Route path="flipcoin" element={<FlipCoin />} />
                     <Route path="stopwatch" element={<Stopwatch />} />
                     <Route path="taskify" element={<Taskify />} />
+                    <Route path="unitconverter" element={<Unitconverter />} />
                     {/* Future nested routes can go here */}
                 </Routes>
             </div>

@@ -20,7 +20,7 @@ const Card = (prop) => {
     >
       <img
         src={icon || Logo}
-        alt={title}
+        alt={lowertitle}
         className={`w-20 h-20 mb-4 transition-transform duration-300 ${isDark ? "invert" : ""} hover:scale-110`}
       />
       <span className="text-2xl font-bold tracking-wide drop-shadow-md">

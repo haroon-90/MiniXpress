@@ -171,7 +171,7 @@ const ColorGame = () => {
 
                 <button
                     onClick={startGame}
-                    className="px-8 py-2 bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold text-lg rounded-full shadow-xl transition-all duration-200"
+                    className="px-8 py-2 bg-[#FFA500] hover:bg-[#ffa600dd] font-bold text-lg rounded-full shadow-xl transition-all duration-200"
                 >
                     {level === 0 ? "Start Game" : "Restart"}
                 </button>

@@ -147,7 +147,7 @@ const MusicPlayer = () => {
             transition={{ duration: 0.7, ease: 'easeInOut' }}
         >
             <div
-                className={`${isPlaying ? "bg" : ""} bg-blue-800/20 backdrop-blur-[2px] p-4 rounded-4xl shadow-xl w-[90vw] md:w-[70vw] lg:min-h-[90vh] mx-auto my-10 flex flex-col items-center justify-center`}
+                className={`${isPlaying ? "bg" : ""} accent-[#FFA500] bg-blue-800/20 backdrop-blur-[2px] p-4 rounded-4xl shadow-xl w-[90vw] md:w-[70vw] lg:min-h-[90vh] mx-auto my-10 flex flex-col items-center justify-center`}
                 style={{
                     backgroundImage: `url(${music_bg})`,
                     backgroundSize: "contain",

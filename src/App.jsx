@@ -3,17 +3,7 @@ import bg from './assets/images/bg.png'
 import bg_light from './assets/images/bg_light.png'
 import { Routes, Route } from 'react-router-dom';
 import { ThemeContext } from './contexts/ThemeContext';
-// import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
-// import Home from './pages/Home';
-// import Games from './pages/Games';
-// import Utilities from './pages/Utilities';
-// import Entertainment from './pages/Entertainment';
-// import Randomizers from './pages/Randomizers';
-// import Terms from './pages/Terms'
-// import Policy from './pages/policy'
-// import Cookies from './pages/Cookies'
-// import License from './pages/License'
+import LogoIcon from './assets/svg/MiniXpress_icon2.svg'
 
 const Navbar = lazy(() => import('./components/Navbar'));
 const Footer = lazy(() => import('./components/Footer'));
@@ -33,14 +23,16 @@ function App() {
   let themeclass = isDark ? "bg-[#0f1056] text-gray-100" : "bg-[#E8F9FF] text-gray-900";
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={
+    <div className={`flex justify-center items-center ${themeclass} min-h-screen`}>
+        <img src={LogoIcon} alt="logo" className='h-30' />
+    </div>}>
       <div className={`min-h-screen flex flex-col justify-between font-[roboto]  ${themeclass}`}
         style={{
           backgroundImage: `url(${isDark ? bg : bg_light})`
         }}
       >
         <Navbar />
-        {/* ${isDark ? "bg-[#151269]/50" : "bg-[#ffffff]/50"} */}
         <div className={`min-h-[calc(100vh-100px)] flex justify-center items-center
       `}
         >

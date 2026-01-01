@@ -14,7 +14,6 @@ import img8 from "../assets/images/card8.jpg"
 
 const cardImages = [img1, img2, img3, img4, img5, img6, img7, img8]
 
-
 const shuffleCards = () => {
   const duplicatedCards = [...cardImages, ...cardImages]
   return duplicatedCards
@@ -100,9 +99,9 @@ const CardClash = () => {
               onClick={() => handleCardClick(index)}
             >
               <img
-                src={card.flipped || card.matched ? card.img : backCard }
+                src={card.flipped || card.matched ? card.img : backCard}
                 alt="card"
-                className={`w-full h-full object-cover ${(!card.flipped && isDark && !card.matched ) ? "invert-100" : ""} rounded-lg shadow-md transition-transform duration-500`}
+                className={`w-full h-full object-cover ${(!card.flipped && isDark && !card.matched) ? "invert-100" : ""} rounded-lg shadow-md transition-transform duration-500`}
                 style={{
                   transformStyle: 'preserve-3d',
                   transform: card.flipped ? 'rotateY(180deg)' : 'rotateY(0deg)',

@@ -21,10 +21,10 @@ function Navbar() {
                 </div>
                 <div className='flex md:justify-between justify-end items-center w-[65%]'>
                     <div className="hidden md:flex space-x-4">
-                        <Link className="hover:text-[#FFA500] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FFA500] after:transition-all after:duration-300 hover:after:w-full " to="/MiniXpress/games">Games</Link>
-                        <Link className="hover:text-[#FFA500] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FFA500] after:transition-all after:duration-300 hover:after:w-full " to="/MiniXpress/utilities">Utilities</Link>
-                        <Link className="hover:text-[#FFA500] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FFA500] after:transition-all after:duration-300 hover:after:w-full " to="/MiniXpress/entertainment">Entertainment</Link>
-                        <Link className="hover:text-[#FFA500] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FFA500] after:transition-all after:duration-300 hover:after:w-full " to="/MiniXpress/randomizers">Randomizers</Link>
+                        <Link className="hover:text-[#FFA500] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FFA500] after:transition-all after:duration-300 hover:after:w-full " to="/games">Games</Link>
+                        <Link className="hover:text-[#FFA500] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FFA500] after:transition-all after:duration-300 hover:after:w-full " to="/utilities">Utilities</Link>
+                        <Link className="hover:text-[#FFA500] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FFA500] after:transition-all after:duration-300 hover:after:w-full " to="/entertainment">Entertainment</Link>
+                        <Link className="hover:text-[#FFA500] relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#FFA500] after:transition-all after:duration-300 hover:after:w-full " to="/randomizers">Randomizers</Link>
                     </div>
                     <button title='Theme' onClick={toggleTheme} className="px-2 py-1 border rounded-full ml-4">
                         {isDark ? <FaSun /> : <FaMoon />}

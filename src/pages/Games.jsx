@@ -8,9 +8,9 @@ import Mindmatch from '../mini/MindMatch.jsx'
 
 import Card from '../parts/card.jsx'
 
-import CardClash_icon from '../assets/svg/Card_Clash_Logo.svg'
+import CardClash_icon from '../assets/svg/Card_Clash_logo.svg'
 import ColorGuess_icon from '../assets/svg/ColorGuess_Logo.svg'
-import TicTacToe_icon from '../assets/svg/Tic_Tac_Toe_Logo.svg'
+import TicTacToe_icon from '../assets/svg/Tic_Tac_Toe_logo.svg'
 import Wordguess_icon from '../assets/svg/Wordguess_logo.svg'
 import Mindmatch_icon from '../assets/svg/Mindmatch_logo.svg'
 

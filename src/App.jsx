@@ -12,7 +12,7 @@ import Utilities from './pages/Utilities';
 import Entertainment from './pages/Entertainment';
 import Randomizers from './pages/Randomizers';
 import Terms from './pages/Terms';
-import Policy from './pages/Policy';
+import Policy from './pages/Policy1';
 import Cookies from './pages/Cookies';
 import License from './pages/License';
 

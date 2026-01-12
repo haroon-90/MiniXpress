@@ -32,15 +32,15 @@ function App() {
       `}
       >
         <Routes>
-          <Route path="/MiniXpress/" element={<Home />} />
-          <Route path="/MiniXpress/games/*" element={<Games />} />
-          <Route path="/MiniXpress/utilities/*" element={<Utilities />} />
-          <Route path="/MiniXpress/entertainment/*" element={<Entertainment />} />
-          <Route path="/MiniXpress/randomizers/*" element={<Randomizers />} />
-          <Route path="/MiniXpress/terms" element={<Terms />} />
-          <Route path="/MiniXpress/policy" element={<Policy />} />
-          <Route path="/MiniXpress/cookies" element={<Cookies />} />
-          <Route path="/MiniXpress/license" element={<License />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/games/*" element={<Games />} />
+          <Route path="/utilities/*" element={<Utilities />} />
+          <Route path="/entertainment/*" element={<Entertainment />} />
+          <Route path="/randomizers/*" element={<Randomizers />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/policy" element={<Policy />} />
+          <Route path="/cookies" element={<Cookies />} />
+          <Route path="/license" element={<License />} />
         </Routes>
       </div>
       <Footer />

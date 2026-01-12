@@ -23,8 +23,8 @@ export default defineConfig({
         theme_color: '#1447e6',
         background_color: '#1447e6',
         display: 'standalone',
-        scope: '/MiniXpress/',
-        start_url: '/MiniXpress/',
+        scope: '/',
+        start_url: '/',
         icons: [
           {
             src: 'logo192.png',
@@ -114,5 +114,5 @@ export default defineConfig({
       }
     })
   ],
-  base: '/MiniXpress/',
+  base: '/',
 })

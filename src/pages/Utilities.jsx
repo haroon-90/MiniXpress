@@ -10,7 +10,7 @@ import Unitconverter from '../mini/Unitconverter.jsx'
 import Card from '../parts/card'
 import Calculator_icon from '../assets/svg/calculator_logo.svg'
 import Flipcoin_icon from '../assets/svg/coin_logo.svg'
-import Stopwatch_icon from '../assets/svg/Stopwatch_logo.svg'
+import Stopwatch_icon from '../assets/svg/StopWatch_logo.svg'
 import Taskify_icon from '../assets/svg/Taskify_icon.svg'
 import UnitConverter_icon from '../assets/svg/Unitconverter_icon.svg'
 

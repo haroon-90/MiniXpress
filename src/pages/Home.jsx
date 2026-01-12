@@ -1,10 +1,10 @@
 import { motion } from "framer-motion"
 import Card from '../parts/card.jsx'
 
-import Games_Icon from "../assets/svg/Game_Icon.svg"
-import Entertainment_Icon from "../assets/svg/Entertainment_Icon.svg"
-import Utilities_Icon from "../assets/svg/Utilities_Icon.svg"
-import Randomizers_Icon from "../assets/svg/Randomizers_Icon.svg"
+import Games_Icon from "../assets/svg/Game_icon.svg"
+import Entertainment_Icon from "../assets/svg/Entertainment_icon.svg"
+import Utilities_Icon from "../assets/svg/Utilities_icon.svg"
+import Randomizers_Icon from "../assets/svg/Randomizers_icon.svg"
 
 const Home = () => {
   return (
